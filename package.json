@@ -1,0 +1,19 @@
+{
+  "name": "muber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=test & nodemon --exec mocha --recursive -R min"
+  },
+  "author": "Said Mançouri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mocha": "^3.5.3",
+    "mongoose": "^4.11.12",
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0"
+  }
+}
